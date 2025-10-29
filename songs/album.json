@@ -1,0 +1,20 @@
+[
+    {
+        "folder": "songs/cs",
+        "title": "Devotional hits for you",
+        "description": "Songs for You",
+        "cover": "songs/cs/cover.jpg"
+    },
+    {
+        "folder": "songs/ncs",
+        "title": "Bollywood hits for you",
+        "description": "take chill pill",
+        "cover": "songs/ncs/cover.jpg"
+    },
+    {
+        "folder": "songs/pcs",
+        "title": "Sad songs for you",
+        "description": "feel your pain",
+        "cover": "songs/pcs/cover.jpg"
+    }
+]
