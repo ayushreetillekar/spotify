@@ -2,10 +2,26 @@
     "title" : "Devotional hits for you",
     "description" : "Songs for You",
     "songs" : [
-        "Ekdantay Vakratunday.mp3",
-        "Hey mahavir karo kalyan.mp3",
-        "Om namah shivay.mp3",
-        "Shree radha.mp3",
-        "Ujjain ke raja.mp3"
-    ]
+        {
+            "songName" : "Ekdantay Vakratunday.mp3",
+            "filepath" : "songs/cs/Om namah shivay.mp3"
+        },
+        {
+            "songName" : "Hey mahavir karo kalyan.mp3",
+            "filepath" : "songs/cs/Hey mahavir karo kalyan.mp3"
+        },
+        {
+            "songName" : "Om namah shivay.mp3",
+            "filepath" : "songs/cs/Om namah shivay.mp3"
+        },
+        {
+            "songName" : "Shree radha.mp3",
+            "filepath" : "songs/cs/Shree radha.mp3"
+        },
+        {
+            "songName" : "Ujjain ke raja.mp3",
+            "filepath" : "songs/cs/Ujjain ke raja.mp3"
+        }
+    ],
+    "cover": "songs/cs/cover.jpg"
 }
