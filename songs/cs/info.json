@@ -3,16 +3,16 @@
     "description" : "Songs for You",
     "songs" : [
         {
-            "songName" : "Ekdantay Vakratunday.mp3",
-            "filepath" : "songs/cs/Om namah shivay.mp3"
+            "songName" : "Ganpati bappa.mp3",
+            "filepath" : "songs/cs/Ganpati bappa.mp3"
         },
         {
-            "songName" : "Hey mahavir karo kalyan.mp3",
-            "filepath" : "songs/cs/Hey mahavir karo kalyan.mp3"
+            "songName" : "Hey mahavir.mp3",
+            "filepath" : "songs/cs/Hey mahavir.mp3"
         },
         {
-            "songName" : "Om namah shivay.mp3",
-            "filepath" : "songs/cs/Om namah shivay.mp3"
+            "songName" : "Namah shivay.mp3",
+            "filepath" : "songs/cs/Namah shivay.mp3"
         },
         {
             "songName" : "Shree radha.mp3",
@@ -25,3 +25,4 @@
     ],
     "cover": "songs/cs/cover.jpg"
 }
+
