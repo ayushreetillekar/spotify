@@ -17,7 +17,8 @@ async function getsongs(folder) {
   let SongList = document.querySelector('.song-list').getElementsByTagName('ul')[0];
   SongList.innerHTML = "";
   for (let song of songss) {
-    const songName = song.songName;
+    const fullpath = decodeURIComponent(song.songName);
+    const songName = fullpath.replaceAll('.mp3', '');
     SongList.innerHTML += `<li>
                             <img class="invert" src="images/music.svg" height="30px" alt="">
                             <div class="info">
@@ -39,7 +40,7 @@ async function getsongs(folder) {
   return songss;
 }
 const playMusic = (track) => {
-  CurrentSong.src = `${currentFolder}/${track}`
+  CurrentSong.src = `${currentFolder}/${track}.mp3`
   CurrentSong.play();
   play.src = 'images/pause.svg';
 
@@ -151,3 +152,4 @@ async function main() {
   })
 }
 main()
+
