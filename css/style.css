@@ -381,7 +381,7 @@ button > * {
         bottom: 5rem;
     }
     .card-container{
-            max-height: 50vh;
+            max-height: 55vh;
     }
 }
 
@@ -392,3 +392,4 @@ button > * {
     }
 
 }
+
