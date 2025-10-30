@@ -1,13 +1,35 @@
 {
-    "title" : "Bollywood hits for you",
-    "description" : "take chill pill",
-    "songs" : [
-        "Aadat.mp3",
-        "Choomantar.mp3",
-        "Hangover.mp3",
-        "Ishq Mubarak.mp3",
-        "Jee le Zaara.mp3",
-        "Party night.mp3",
-        "Titli.mp3"
-    ]
+    "title": "Bollywood hits for you",
+    "description": "take chill pill",
+    "songs": [
+        {
+            "songName": "Aadat.mp3",
+            "filepath": "songs/ncs/Aadat.mp3"
+        },
+        {
+            "songName": "Choomantar.mp3",
+            "filepath": "songs/ncs/Choomantar.mp3"
+        },
+        {
+            "songName": "Hangover.mp3",
+            "filepath": "songs/ncs/Hangover.mp3"
+        },
+        {
+            "songName": "Ishq Mubarak.mp3",
+            "filepath": "songs/ncs/Ishq Mubarak.mp3"
+        },
+        {
+            "songName": "Jee le Zaara.mp3",
+            "filepath": "songs/ncs/Jee le Zaara.mp3"
+        },
+        {
+            "songName": "Party night.mp3",
+            "filepath": "songs/ncs/Party night.mp3"
+        },
+        {
+            "songName": "Titli.mp3",
+            "filepath": "songs/ncs/JTitli.mp3"
+        }
+    ],
+    "cover": "songs/ncs/cover.jpg"
 }
