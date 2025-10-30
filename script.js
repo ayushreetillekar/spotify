@@ -120,14 +120,18 @@ async function main() {
    if(CurrentSongIndex < 0){
     CurrentSongIndex = songss.length - 1;
    }
-   playMusic(songss[CurrentSongIndex].songName);
+   const fullpath = decodeURIComponent(songss[CurrentSongIndex].songName);
+    const songName = fullpath.replace('.mp3', '');
+   playMusic(songName);
   })
   document.getElementById('next').addEventListener('click', () => {
   CurrentSongIndex++;
    if(CurrentSongIndex > songss.length){
     CurrentSongIndex = 0;
    }
-   playMusic(songss[CurrentSongIndex].songName);
+   const fullpath = decodeURIComponent(songss[CurrentSongIndex].songName);
+    const songName = fullpath.replace('.mp3', '');
+   playMusic(songName);
   })
   document.querySelector('.range').getElementsByTagName('input')[0].addEventListener("input", (e) => {
     let volume = parseInt(e.target.value) / 100;
@@ -152,4 +156,5 @@ async function main() {
   })
 }
 main()
+
 
