@@ -327,7 +327,7 @@ button > * {
         left: -100%;
         transition: all .3s;
         width: 333px;
-        height: 100vh;
+        height: 90vh;
         z-index: 1;
         background-color: black;
     }
@@ -392,5 +392,6 @@ button > * {
     }
 
 }
+
 
 
